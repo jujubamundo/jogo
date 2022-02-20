@@ -1,0 +1,85 @@
+@import
+url('https://fonts.googleapis.com/css?family=Lato');
+
+body{
+    background-color:#232323;
+    font-family: "Lato";
+}
+
+header{
+    background: steelblue;
+    font-size: 40px;
+}
+
+h1{ 
+	color: darken(white, 10%);
+	text-align: center;
+	margin:0;
+	padding: 10px;
+	line-height: 1.5;
+}
+
+.container{
+    max-width: 600px;
+    margin: 20px auto 0;
+}
+
+.square{
+    width: 30%;
+    padding-bottom: 30%;
+    background-color: purple;
+    float: left;
+    margin: 1.66%;
+    border-radius:12%;
+    cursor: pointer;
+    outline: none;
+    transition: background .5s;
+
+}
+    
+
+#colorDisplay{ 
+    text-transform: uppercase;
+}
+
+#stripe{
+    background:white;
+    height: 30px;
+    text-align: center;
+}
+
+@media screen and(max-width: 480px){
+    article{
+        height: 60px;
+        font-size: 14px;
+    }
+}
+
+#message{ 
+    display: inline-block;
+    width: 25%;
+    font-weight:bold;
+
+}
+
+#selected{
+    background: steelblue;
+    color:white;
+}
+
+button{
+    text-transform: uppercase;
+    font-family: "Lato";
+    border:none;
+    height: 100%;
+    color: darken(steelblue, 15%);
+    font-weight: bold;
+    background:white;
+    cursor: pointer;
+    outline: none;
+}   
+
+button:hover{
+    background: darkorange;
+    transform: scale(1.2);
+}
